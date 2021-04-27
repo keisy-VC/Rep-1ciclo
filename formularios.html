@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>certus 2021</title>
+</head>
+<body>
+    <h1>FORMULARIO</h1>
+    <form>
+       Nombre: <input type="text" name="txtnom"> 
+       <p> Elige un color <input type="color"> </p>
+       Apellido:<input type="text" name="txtape" required > <span  style="color: rgb(233, 16, 16);">*</span>
+     <p> Numero: <input type="number" min="1" max="100"></p>
+     <p> Fecha y Hora: <input type="datetime-local"></p>
+     <p> Correo : <input type="email"></p>
+     <p> Rango : <input type="range"></p><br>
+
+     <fieldset>
+         <legend>Controles de opcion</legend>
+         Empleo actual: <br>
+         <input type="radio" name="rdempleo" value="timecomplet"> Tiempo completo <br>
+         <input type="radio"name="rdempleo" value="timeparcial"> Tiempo parcial <br>
+         <input type="radio"name="rdempleo" value="sinempleo"> sin empleo  <br>
+     </fieldset>
+
+     <fieldset>
+        <legend>check</legend>
+        Hobbies: <br>
+        <input type="checkbox" > natacion <br>
+        <input type="checkbox"> futbol <br>
+        <input type="checkbox"> salto largo <br>
+    </fieldset>
+
+    <p>
+        <select name="select">
+        <option>peru</option>
+        <option>brasil</option>
+        <option>colombia</option>
+        <option>uruguay</option>
+        </select>
+
+    </p>
+    <p>
+        busca tu archivo: <input type="file" accept=".jpg, .bnp, .gif">
+
+    </p>
+    <p>
+    <input type="submit">
+    <input type="reset">
+    </p>
+
+
+    </form>
+</body>
+</html>
